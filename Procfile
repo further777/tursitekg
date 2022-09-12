@@ -1,1 +1,1 @@
-gunicorn tourist.wsgi
+web gunicorn tursitekg.wsgi:application --log-file -
